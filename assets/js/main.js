@@ -92,7 +92,7 @@
 	};
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
+		$(function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
@@ -192,7 +192,7 @@
 				$window.trigger('scroll');
 			});
 
-			$window.on('load', function() {
+			$(function() {
 
 				$banner.scrollex({
 					bottom:		$header.height() + 10,
