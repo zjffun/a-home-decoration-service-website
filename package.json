@@ -1,0 +1,24 @@
+{
+  "name": "a-home-decoration-service-website",
+  "version": "1.0.0",
+  "description": "Forty by HTML5 UP html5up.net | @ajlkn Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "sitemap": "sitemap < listofurls.txt > sitemap.xml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjffun/a-home-decoration-service-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjffun/a-home-decoration-service-website/issues"
+  },
+  "homepage": "https://github.com/zjffun/a-home-decoration-service-website#readme",
+  "dependencies": {
+    "sitemap": "^7.0.0"
+  }
+}
